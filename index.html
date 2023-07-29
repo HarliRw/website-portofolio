@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Portofolio Harli</title>
+      <!--Menu icon lalu pilih learn about lalu ke cd copy-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+      <!--hasilnya ada di akhir tinggal copas iconnya-->
+      <link rel="stylesheet" href="style.css" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    </head>
+    <body id="home">
+      <!--Navbar di bootstrap-->
+      <!--untuk menyambung angker maka diperlukan id-->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #eeff03">
+        <div class="container">
+          <a class="navbar-brand" href="#">Harli Ramadhoni W</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <!--Adanya di bootstrap versi 4-->
+        <div class="jumbotron text-center">
+          <img src="img/bts.jpeg" alt="FOTO HARLI" width="200" class="img-thumbnail" />
+          <h1 class="display-4">Harli Ramadhoni Wicaksono</h1>
+          <h2 class="display-5">Mahasiswa</h2>
+          <p class="lead">UIN Syarif Hidayatullah Jakarta.</p>
+
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#ff5500"
+              fill-opacity="1.0"
+              d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+      </section>
+
+      <section id="about">
+        <!--lihatnya di grid-->
+        <!--row pertama-->
+        <div class="container">
+          <div class="row2 text-center mb-3">
+            <div class="col">
+              <h2>About Me</h2>
+            </div>
+          </div>
+        </div>
+        <!--row ke dua-->
+        <!--lihat nya di collumns -->
+        <div class="row justify-content-center fs-7 text-center">
+          <div class="col-md-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem laudantium vitae quae commodi recusandae dolorum rerum iste veritatis consectetur minima!</p>
+          </div>
+          <div class="col-md-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti rem dignissimos ipsum voluptates molestiae, at cupiditate perferendis, praesentium, voluptatibus doloribus id consequuntur repellat animi possimus nemo cumque
+            harum accusantium reiciendis?
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ffd700"
+            fill-opacity="1"
+            d="M0,192L80,197.3C160,203,320,213,480,202.7C640,192,800,160,960,170.7C1120,181,1280,235,1360,261.3L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+      <!--Galeri-->
+      <section id="projects">
+        <div class="container">
+          <div class="row mb-3">
+            <div class="col text-center">
+              <h2>Galeri</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+              <!--ditambahkan md agar responsive (ada di breakpoints bootstrap)-->
+              <!--Di bootsrap di komponen card-->
+              <div class="card">
+                <img src="img/wisuda.jpeg" class="card-img-top" alt="Foto wisuda" />
+                <div class="card-body">
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <!--ditambahkan md agar responsive-->
+              <!--Di bootsrap di komponen card-->
+              <div class="card">
+                <img src="img/piagam prestasi (1).jpeg" class="card-img-top" alt="bts" />
+                <div class="card-body">
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <!--Di bootsrap di komponen card-->
+              <div class="card">
+                <img src="img/wisuda 2.jpeg" class="card-img-top" alt="Foto wisuda2" />
+                <div class="card-body">
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <!--Di bootsrap di komponen card-->
+              <div class="card">
+                <img src="img/Web capture_4-7-2023_151442_www.instagram.com.jpeg" class="card-img-top" alt="Foto ig" />
+                <div class="card-body">
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ff5511"
+            fill-opacity="1"
+            d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+      <!--COntact-->
+      <section id="contact">
+        <div class="container">
+          <div class="row text-center mb-5">
+            <div class="col">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <form>
+                <div class="mb-3">
+                  <h3><a href="https://wa.me/081218304029"><i class="bi bi-whatsapp">Whatsapp</h3></i></a> 
+                <div class="mb-3">
+                 <h3><a href="https://instagram.com/harlir.w?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="bi bi-instagram">Harlir.w</h3></i></a>
+                </div>
+                <button type="submit" class="btn btn-primary mb-3">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--footer-->
+      <footer class="penutup justify-content-center p-3">
+        <p>Created with <i class="bi bi-suit-heart-fill"></i> by <a href="https://instagram.com/harlir.w?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="text-black fw-bold"> Harli Ramadhoni Wicaksono</a></p>
+        <p>
+          Instagram <a href="https://instagram.com/harlir.w?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="bi bi-instagram"></i> </a>
+        </p>
+      </footer>
+    </body>
+  </html>
+</html>

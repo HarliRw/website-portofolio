@@ -1,0 +1,27 @@
+.jumbotron {
+  padding-top: 4rem;
+  background-color: #c2b32b;
+}
+
+#about {
+  background-color: #ff5500;
+  fill-opacity: '0.7';
+  padding-top: 5rem;
+}
+#projects {
+  background-color: #ffd700;
+  fill-opacity: '0.8';
+  opacity: 98%;
+  padding-top: 5rem;
+}
+#contact {
+  background-color: #ff5511;
+  padding-top: 5rem;
+}
+#emailHelpS {
+  opacity: 100%;
+}
+.penutup {
+  background-color: #c2b32b;
+  padding-top: 5rem;
+}
